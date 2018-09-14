@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blog</title>
+</head>
+<body>
+    <h1>C4E blog</h1>
+    <h3>{{ tittle}}</h3>
+    {% for post in posts %}
+        <p>{{ post }}</p> 
+    {% endfor %}
+    <!-- Ngoặc nhọn là cú pháp của flask, nếu mở trực tiếp bằng browser thì không được -->
+    <!-- <p>Mai là thứ 4 ngày 12/09/2018</p> backend phải chám chỗ biến post
+    <p>Ngày mai Linh phải đi học</p> -->
+</body>
+</html>
