@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Đăng ký tài khoản</title>
+</head>
+<body>
+    <form method="POST"     >
+        <h1>Đăng kí tài khoản</h1>
+        <label for="">Tên đầy đủ</label> <br>
+        <input type="text" name="name" autocomplete="on" placeholder="Your fullname"> <br>
+        <br>
+        <label for="">Email</label> <br>
+        <input type="email" name="email" autocomplete="on" placeholder="email@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" title="Email phải có định dạng email@gmail.com"> <br>
+        <br>
+        <label for="">Tên đăng nhập</label> <br>
+        <input type="text" name="your_id" autocomplete="on" placeholder="Your ID" pattern="[a-z0-9]{8,25}" title = "ID dài từ 8 - 25 ký tự, không chấp nhận các ký tự đặc biệt như ' ', '?'..."> <br>
+        <br>
+        <label for="">Mật khẩu</label> <br>
+        <input type="password" name="password" autocomplete="on" placeholder="Your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Mật khẩu có ít nhất 1 kí tự viết hoa, 1 ký tự viết thường, 1 con số, không có các ký tự đặc biệt"> <br>
+        <br>
+        <button>Submit</button> <br>
+    </form>
+</body>
+</html>
