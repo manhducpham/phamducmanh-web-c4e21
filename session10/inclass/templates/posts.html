@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a href="{{ url_for('new_post') }}">Add new post</a>
+    <div>
+        {% for post in posts %}
+        <div>
+            <a href="/posts/{{  post.id  }}">
+                <span>{{ post.title }}</span>
+            </a>
+            <span> by {{ post.author }}</span>
+        </div>
+        <!-- <br> -->
+        {% endfor %}
+    </div>
+
+</body>
+</html>

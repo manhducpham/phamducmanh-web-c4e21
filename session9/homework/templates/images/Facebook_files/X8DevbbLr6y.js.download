@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["dAC3v"]); }
+
+__d("BookmarkNuxController",["AsyncRequest","DOM","ge"],(function(a,b,c,d,e,f){"use strict";__p&&__p();e.exports={init:function(a){a.nux.subscribe("show",function(){new(b("AsyncRequest"))(a.seen_uri).send()});a.nux.subscribe("hide",function(){new(b("AsyncRequest"))(a.dismiss_uri).send()});var c=b("ge")("appsNav");if(c===null)return;c=b("DOM").find(c,a.selector);c!==null&&c.offsetParent!==null&&a.nux.show()}}}),null);

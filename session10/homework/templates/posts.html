@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Posts</title>
+</head>
+<body>
+    <h1>Posts list</h1>
+    {% for post in posts %}
+        <p><b>{{ post.title }}</b> by <i>{{ post.author }}</i>.</p>
+        <p>{{ post.content[:20] }}...
+            <i><a href="/post/{{ post.id}}">See more</a></i>
+        </p>
+    {% endfor %}
+    <button>
+        <a href="/new-post" style='text-decoration: none; color: black'>New post</a>
+    </button>
+</body>
+</html>
