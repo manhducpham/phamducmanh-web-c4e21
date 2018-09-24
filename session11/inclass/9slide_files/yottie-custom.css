@@ -1,0 +1,30 @@
+ul.yottie-widget-nav-list {
+display: table;
+margin: 0 auto;
+}
+
+.yottie-widget-feed-section-pagination .swiper-pagination-bullet-active {
+    color: #fff;
+    background: rgb(215,25,10);
+}
+
+.yottie-widget-nav-list-item.yottie-active a, .yottie-widget-nav-list-item.yottie-active:hover a{
+    color: rgb(215, 25, 10);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+li.yottie-widget-nav-list-item a{
+    font-size: 15px;
+}
+
+#yottie_1 .yottie-widget-nav-list-item.yottie-active a, #yottie_1 .yottie-widget-nav-list-item.yottie-active:hover a {
+    color: rgb(215, 25, 10);
+    font-weight: bold;
+    font-size: 19px;
+    padding-top: 0px;
+}
+
+.yottie-widget-feed .swiper-container, .yottie-widget-feed .swiper-slide {
+    margin-bottom: -15px !important;
+}

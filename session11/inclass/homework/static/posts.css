@@ -1,0 +1,58 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('font.ttf');
+}
+.title {
+    font-family: myFirstFont;
+    font-size: 1.5rem;
+}
+.author {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.link {
+    text-decoration: none;
+}
+.container {
+    background-image: url(http://vnmedia.vn/dataimages/201708/original/images1999244_1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.post {
+    background-color: rgb(255, 255, 255, 0.4);
+    background-blend-mode: color-burn;
+    width: 500px;
+    border-style: double;
+    border-color: rgb(235, 160, 49);
+    padding-left: 20px;
+}
+.link {
+    color: black;
+    text-align: center
+}
+
+.header {
+    text-align: center;
+    font-family: myFirstFont;
+    font-size: 5rem;
+    color: rgb(235, 160, 49);
+    font-style: normal
+}
+.bor {
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color-burn;
+    width: 100%;
+    border-style: double;
+    border-color: rgb(235, 160, 49);
+    padding-left: 20px;
+    background-position-x: center;
+    background-position-y: center
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}

@@ -1,0 +1,49 @@
+.eapps-pricing-table-column-features-item-with-icon .eapps-pricing-table-column-features-item-inner {
+    padding-left: 54px;
+}
+
+.eapps-pricing-table-column-features-item {
+    color: #041040;
+}
+
+.eapps-pricing-table .tooltip-content-inner {
+    font-size: 15px;
+}
+
+#eapps-pricing-table-1 .eapps-pricing-table-column .eapps-pricing-table-column-inner .eapps-pricing-table-column-title-container {
+    padding: 12px;
+}
+
+.eapps-pricing-table-column {
+    margin-left: 21px !important;
+    margin-right: 21px !important;
+}
+
+.eapps-pricing-table-column-picture-container {
+    height: 160px !important;
+}
+
+.eapps-pricing-table-column-picture {
+    height: auto !important;
+}
+
+.eapps-pricing-table-column-price-caption {
+    line-height: 27px;
+}
+
+.eapps-pricing-table-column-price-fix-postfix {
+    font-size: 0px;
+}
+
+.eapps-pricing-table {
+    font-family: Roboto !important;
+}
+
+.eapps-pricing-table-column-features-item-inner {
+    padding: 10px 0px 3px 0px;
+}
+
+.eapps-pricing-table-column-price-wrapper {
+    color: #041040;
+}
+

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('font.ttf');
+}
+
+@font-face {
+    font-family: my2ndfont;
+    src: url('font2.ttf');
+}
+
+.header {
+    text-align: center;
+    font-family: my2ndfont;
+    font-size: 5rem;
+    color: rgb(235, 160, 49);
+    font-style: normal;
+    font-variant-caps: all-petite-caps
+}
+
+.title {
+    font-family: myFirstFont;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.author {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+}
+
+.content {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-align: center;
+}
+.button {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
+.footer {
+    text-align: center
+}
+.img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

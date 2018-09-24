@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/post.css">
+    <title>Post detail</title>
+</head>
+<body>
+    <h1 class='header'>Thơ Thu</h1>
+    <div id='bg_insert'>
+        <h3 class='title'>{{ post.title }}</h3>
+        <p class='author'>Tác giả: {{ post.author }}</p>
+    </div>
+    <img src="/static/midautumn.png" alt="" class='img center'>
+    <p class='content'>{{ post.content }}</p>
+    <div class="footer">
+        <button >
+            <a href="/update/{{ post.id }}"" class="button" >Chỉnh sửa bài thơ</a>
+        </button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button >
+            <a href="/delete/{{ post.id }}"" class="button" >Xóa bài thơ</a>
+        </button>
+    </div>
+</body>
+</html>

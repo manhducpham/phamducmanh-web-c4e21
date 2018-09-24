@@ -1,0 +1,91 @@
+h4 {
+    color: orange;
+}
+h5 {
+    color: blue;
+}
+
+#last_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.bg-blue {
+    background-color: cadetblue
+}
+.text-decor {
+    text-decoration: underline
+}
+#image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    /* fill, contain, none, cover */
+}
+
+#container {
+    background-image: url(https://i.pinimg.com/564x/71/7c/c3/717cc3df8fd2eb9ad7d5cb82dd1f5b3b.jpg);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+/* html {
+    height: 100%;
+}
+body {
+    height: 100%;
+} */
+html, body {
+    height: 100%;
+}
+.bg-red {
+    background-color: #e43131;
+}
+.bg-green {
+    background-color: green;
+}
+.text-white {
+    color: #ffffff;
+}
+.h-200p {
+    height: 200px;
+}
+.w-400p {
+    width: 400px;
+}
+.h-10 {
+    height: 10%;
+}
+.w-50 {
+    width: 50%;
+}
+.mb-10p {
+    margin-bottom: 10px;
+}
+.m-20p {
+    margin: 20px;
+}
+.m-c {
+    margin: 10px 20px 30px 40px;
+    /* top right bot left */
+}
+/* .vh-cen {
+    alig
+    /* align-content: center */
+
+.pt-16p {
+    padding-top: 16px;
+}
+.pl-40p {
+    padding-left: 50px;
+}
+.p-c {
+    border-color: #0e0d0d;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 100%;
+}

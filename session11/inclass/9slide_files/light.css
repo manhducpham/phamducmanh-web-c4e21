@@ -1,0 +1,25 @@
+/* CSS Document */
+#nex-forms .ui-nex-forms-container  .is_panel .panel {
+    border-radius: 0 !important;
+	border:none;
+}
+#nex-forms .ui-nex-forms-container  .is_panel .panel .panel-heading {
+    border-radius: 0 !important;
+	color:#fff;
+}
+#nex-forms .ui-nex-forms-container  .is_panel .panel .panel-body.the-panel-body {
+    border-radius: 0 !important;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	border-left:1px solid #ddd;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color:#091b51 !important;
+}
+h1{ font-size:32px }
+h2{ font-size:28px }
+h3{ font-size:24px }
+h4{ font-size:20px }
+h5{ font-size:16px }
+h6{ font-size:14px }
